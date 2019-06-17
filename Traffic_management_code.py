@@ -96,7 +96,7 @@ def model_rf(dataframe_place):
     Y=dataframe_place.demand   
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33, random_state=42)
     
-    """linear regression"""
+    """  Random Forest  """
  
     rf = RandomForestRegressor()
     rf.fit(X_train,Y_train)
