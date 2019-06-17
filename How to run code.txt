@@ -1,0 +1,11 @@
+Our data consist of about 1329 places which I have got with finction -->  list(new_data['geohash6'].unique()) 
+
+Frequency of each places in data can be found out unsing function --> new_data['geohash6'].value_counts() 
+
+first we need to read csv file as done in: data=pd.read_csv("traffic_management_train.csv")
+
+Now, since data of each place is not that much related to each other so, we need to divide our data into different dataframes of places and then we will apply our model on that dataframe.
+
+Program input will be a csv file
+
+program output will be a dataframe with respective Lattitude,Longitude and model accuracy to predict demand at specific place.
