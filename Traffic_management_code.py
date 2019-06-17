@@ -173,5 +173,3 @@ end_time=time.time()
 print("The places in data with their respective latitude and longitude can be predicted with accuracy as given below:\n\n\n",df)
 print("\n Total time taken to execute program is:", end_time-start_time, "seconds")
 
-df.describe()
-
